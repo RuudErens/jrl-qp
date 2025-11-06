@@ -4,11 +4,11 @@ set(SOLVER_LIBS "")
 # ##############################################################################
 # * eigen-lssol - #
 # ##############################################################################
-add_project_dependency(eigen-lssol QUIET)
-if(eigen-lssol_FOUND)
-  list(APPEND SOLVER_FLAGS "-DJRLQP_USE_LSSOL")
-  list(APPEND SOLVER_LIBS eigen-lssol::eigen-lssol)
-endif()
+#add_project_dependency(eigen-lssol QUIET)
+#if(eigen-lssol_FOUND)
+#  list(APPEND SOLVER_FLAGS "-DJRLQP_USE_LSSOL")
+#  list(APPEND SOLVER_LIBS eigen-lssol::eigen-lssol)
+#endif()
 
 # ##############################################################################
 # * eigen-qld  - #

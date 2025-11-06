@@ -3,3 +3,6 @@ notes/*.bbl
 notes/*.blg
 notes/*.log
 notes/*.pdf
+.idea/
+build
+compile_commands.json
